@@ -29,6 +29,7 @@ class HomeController extends Controller
 
     public function login(Request $request) {
         //echo '<pre>';print_r($request->all());
+        ///Feature 1 Code base
         $request->validate([
             'email' => 'required|string|email',
             'password' => 'required|string',
